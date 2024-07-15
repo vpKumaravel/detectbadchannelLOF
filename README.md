@@ -98,4 +98,23 @@ Disclaimer: This software does not come with any warranty. It is meant only for 
   doi={https://doi.org/10.1016/j.dcn.2022.101068},
   year={2022}
 }
+
+
+@Article{LOF2022,
+AUTHOR = {Kumaravel, Velu Prabhakar and Buiatti, Marco and Parise, Eugenio and Farella, Elisabetta},
+TITLE = {Adaptable and Robust EEG Bad Channel Detection Using Local Outlier Factor (LOF)},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {19},
+ARTICLE-NUMBER = {7314},
+URL = {https://www.mdpi.com/1424-8220/22/19/7314},
+DOI = {10.3390/s22197314}
+}
 ```
+
+### Papers used LOF for EEG Bad Channel Detection
+
+[1] Bursting with Potential: How Sensorimotor Beta Bursts Develop from Infancy to Adulthood
+Holly Rayson, Maciej J. Szul, Perla El-Khoueiry, Ranjan Debnath, Marine Gautier-Martins, Pier F. Ferrari, Nathan Fox, James J. Bonaiuto
+Journal of Neuroscience 6 December 2023, 43 (49) 8487-8503; DOI: 10.1523/JNEUROSCI.0886-23.2023
