@@ -55,22 +55,9 @@ EEG = pop_select(EEG, 'nochannel', badChans);
 
 (please use command-line execution with prompt attention on the parameters!)
 
-**To use NEAR as an automated pipeline**
+### Update (16-07-2024)
 
-<br />
-(1) Please read the NEAR_UserManual.pdf file on the repository <br />
-<br />
-(2) To familiarize with the user parameters, execute the step-by-step preprocessing using **NEAR_Pipeline_Tutorial_v1_0.m**. You may also refer to the appendix of our manuscript. <br />
-<br />
-(3) To run NEAR for a single subject EEG file, please use the **NEAR_singlesubject_processing.m** file <br />
-<br />
-(4) To perform NEAR preprocessing for a batch of EEG files, the **NEAR_batch_processing.m** file can be used <br />
-<br />
-(5) To tune LOF Threshold, you need the ground truth bad channels already. By default, F1 Score is used as the quality metric. If you prefer accuracy, or precision/recall, the code can be easily modified. The file calibrateLOFThreshold.m in **tuneLOF** folder helps you do that. A sample EEG file is also available for a hands-on experience. ;-)
-<br />
-(6) To tune ASR user-defined parameters ASR Cut-off Parameter (_k_) and ASR Processing Mode (_Correction & Removal_), use the files in **TuneASR** as template and customize the code as per your requirements (more details in the comments section of each file). <br />
-
-
+The LOF algorithm is now available also on MNE-Python to use for EEG and MEG bad channel detection. Let me know how good is it for MEG data.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. <br />
 
