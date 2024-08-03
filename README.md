@@ -69,9 +69,11 @@ Disclaimer: This software does not come with any warranty. It is meant only for 
 
 ### Tutorials
 
-(1) To tune ASR parameters for your dataset, please refer to the scripts [here](https://github.com/vpKumaravel/vpKumaravel.github.io/wiki/How-to-find-the-optimal-hyperparameter-for-Artifacts-Subspace-Reconstruction-(ASR)-algorithm-to-clean-EEG-artifacts%3F).
+(0) To tune LOF threshold, please refer to the tutorial [here](https://github.com/vpKumaravel/vpkumaravel.github.io/wiki/How-to-tune-LOF-threshold-parameter%3F)
 
-(2) To use NEAR as an end-to-end automated pipeline, please refer to this tutorial [page](https://github.com/vpKumaravel/vpKumaravel.github.io/wiki/Tutorial-on-Newborns-EEG-Artifact-Removal-(NEAR)-pipeline).
+(1) To tune ASR parameters for your dataset, please refer to the scripts [here](https://github.com/vpKumaravel/vpkumaravel.github.io/wiki/How-to-tune-ASR-parameter%3F).
+
+(2) To use NEAR as an end-to-end automated pipeline, please refer to this tutorial [page](https://github.com/vpKumaravel/vpkumaravel.github.io/wiki/Step%E2%80%90by-step-Tutorial-on-Newborns-EEG-Artifact-Removal-(NEAR)-pipeline).
 
 ### Citation 
 
